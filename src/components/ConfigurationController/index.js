@@ -26,21 +26,21 @@ const ConfigurationController = () => (
         <nav>
           <h1>Layout</h1>
           <input
-            type="chexkbox"
+            type="checkbox"
             id="cb1"
             onClick={onClickShowContent}
             selected
           />
           <label htmlFor="cb1">Content</label>
           <input
-            type="chexkbox"
+            type="checkbox"
             id="cb2"
             onClick={onClickShowLeftNavbar}
             selected
           />
           <label htmlFor="cb2">Left Navbar</label>
           <input
-            type="chexkbox"
+            type="checkbox"
             id="cb3"
             onClick={onClickShowRightNavbar}
             selected
